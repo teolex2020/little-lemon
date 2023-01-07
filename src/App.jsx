@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import './App.css'
+import styles from './app.module.scss'
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
      <header>header</header>
      <nav>nav</nav>
-     <main>main</main>
+     <main className={styles.ma}>main</main>
      <footer>footer</footer>
     </div>
   )
